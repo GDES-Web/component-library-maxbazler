@@ -1,14 +1,13 @@
 @import "universal";
-.btn {
-    padding: 0.75em 3em;
-    background-color: red;
-    color: white;
-    border-radius: 0.5em;
-    font-size: 1.25em;
-    position: relative;
-    &:before {
-        position: absolute;
-    }
+@import "button";
+
+*{
+    // border: 1px solid red !important;
+}
+
+body {
+  	background-color: #eaeff1;
+    
 }
 
 .container {
@@ -18,4 +17,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 1rem;
 }
